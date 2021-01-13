@@ -224,3 +224,32 @@ html {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.bottom
+{
+  bottom: 20px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  display: table-header-group;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  bottom: 0px;
+  right: 25%;
+  left: 50%;
+  margin-left: -150px;
+}
+
+.center-container {
+  position: relative;
+  height: 100%;
+}
+
+.absolute-center {
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
