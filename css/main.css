@@ -259,7 +259,7 @@ html {
 }
 
 .absolute-center {
-  height: 50%;
+  height: 20%;
   overflow: auto;
   margin: auto;
   position: absolute;
@@ -275,4 +275,9 @@ html {
 .page4character
 {
   font-size: 40px;
+}
+
+.bold600
+{
+  font-weight: 600;
 }
