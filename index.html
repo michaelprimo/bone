@@ -5,7 +5,9 @@
     <title>Bone</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <link href="css/main.css" type="text/css" rel="stylesheet">
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style type="text/css">
     
     </style>
@@ -25,9 +27,14 @@
 			<div class="contain">
                
 				<div class="description"> Welcome.</div>
-				<div class="black-line-sm">Consulenza, pianificazione campagne outdoor, produzione di materiali di comunicazione ed assistenza a 360°</div>
-				<div class="black-line-lg">Alcuni clienti</div>
-				<div class="black-line-sm">MERCATÒ - MERCATÒ EXTRA - BIG STORE MAXISCONTO - AT (armando testa) - CEU (carmi e ubertis) - TARGET IN - PUBLIFUTURA -
+				<div class="black-line-sm">
+					<p>Consulenza,</p> 
+					<p>pianificazione campagne outdoor,</p> 
+					<p>produzione di materiali di comunicazione</p>
+					<p>ed assistenza a 360°</p>
+				</div>
+				<div class="black-line-lg mt-10">Alcuni clienti</div>
+				<div class="black-line-sm">MERCATÒ - MERCATÒ EXTRA - BIG STORE MAXISCONTO - AT (armando testa) - CEU (Carmi e Ubertis) - TARGET IN - PUBLIFUTURA -
 					LA PIADINERIA - BURGER LOVERS - MC DONALD'S - ZERBINATI - AMEN (Croce del Sud) - MILOR GROUP - BRONZALLURE - KEEP OUT - LOCMAN - CUCINARREDI -
 					CHATEAU D'AX - WALL STREET ENGLISH - REVERCHON - NAU - MONDOBRICO - CC LA CITTADELLA - B CUBE - ENERGICA - ALBASIDER - TAPPOROSSO - LATTE TIGULLIO
 				</div>
@@ -39,14 +46,14 @@
 				
 				<div class="description description-lg">
 					<div class="description-text">
-						Immaginiamo
-						progettiamo
-						creiamo.   
+						<p>Immaginiamo</p>
+						<p>progettiamo</p>
+						<p>creiamo.</p>   
 						<p id="insieme">I N S I E M E</p>
 					</div> 
 				</div>
 				
-				<div class="black-line-lg mt-20">Servizi</div>
+				<div class="black-line-lg service-description">Servizi</div>
 				<div class="black-line-sm">
 					<div class="services">PACKAGING/CARTELLONISTICA SHOPPER</div>
 					<div class="services">STAMPA DIGITALE/EFFETTO 3D CONTRASTO GLOSS</div>
@@ -60,7 +67,15 @@
 		<div class="page page3">
 			<div class="contain">
 				
-				<div class="description description-lg"> La tua immagine, i tuoi valori, la tua comunicazione.</div>
+				<div class="description description-lg"> 
+					<div class="description-text">
+						<p>La tua immagine,</p>
+						<p>i tuoi valori,</p>  
+						<p>la tua</p>
+						<p>comunicazione.</p>
+					</div>
+					
+				</div>
 
 				<div class="slideshow-container">
 
@@ -111,8 +126,8 @@
 		<div class="page page4">
 			<div class="contain">
 
-				<p class="black-line-lg white-line mt-20">Contattaci,</p>
-				<p class="black-line-lg grey-line">Siamo a tua disposizione</p>
+				<p class="black-line-lg white-line mt-20 page4character">Contattaci,</p>
+				<p class="black-line-lg grey-line page4character">Siamo a tua disposizione</p>
 				<div class="center-container">
 					<p class="black-line-sm grey-line mt-20 ">Per richiedere una campionatura o semplicemente delle informazioni non esitare, senza impegno, a scriverci o chiamarci.</p>
 				</div>
@@ -155,7 +170,7 @@ runPage = new FullPage({
         	},
         	opacity : [0, 1]                       // [opacityfrom, opacityto]
     	},                           
-	mode : 'wheel,touch,nav:navBar',               // mode of fullpage
+	mode : 'wheel,touch',               // mode of fullpage
     start : 0,                                     // which page will display when install
 	easing : 'ease'                                // easing('ease','ease-in','ease-in-out' or use cubic-bezier like [.33, 1.81, 1, 1];
     //  ,onSwipeStart : function(index, thisPage) {   // callback before pageChange
