@@ -28,7 +28,7 @@
 		<div class="tableCell">
 			<div class="intro">	
 				<div class="image-container image-transition">
-					<img src="images/logo.png">
+					<img class="logoWidth" src="images/minilogo.png">
 				</div>
 				<p class="animated backInDown immaginiamo">Immaginiamo</p>
 				<p class="animated backInDown immaginiamo">Progettiamo</p>
@@ -45,7 +45,7 @@
 		<div class="tableCell">
 			<div class="intro">
 				<div class="image-container image-transition">
-					<img src="images/logo.png">
+					<img class="logoWidth" src="images/minilogo.png">
 					
 				</div>
 				<div class='some-page-wrapper'>
@@ -164,7 +164,7 @@
 		<p id="piva">3333333333333</p>  
 		<p id="cod">333333333</p-->
 			<div class="image-container image-transition">
-				<img src="images/logo.png">
+				<img class="logoWidth" src="images/logo.png">
 				
 			</div>
 			<p id="bonelli" class="clienti">Alcuni clienti...</p>
@@ -268,7 +268,9 @@
         sectionsColor: ['#FFF', '#FFF', '#FFF', '#FFF'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['First page', 'Second page', 'Third and last page', 'Fourth page']
+		navigationTooltips: ['First page', 'Second page', 'Third and last page', 'Fourth page'],
+		afterLoad: function(origin, destination, direction){
+        }
     });
 </script>
 
