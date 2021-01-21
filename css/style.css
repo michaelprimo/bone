@@ -1,205 +1,129 @@
-/*
-Theme Name:     DFD Ronneby Child Theme
-Theme URI: 		http://rnbtheme.com/
-Description:    ronneby - Highly Functional Multifaceted WP Theme
-Author:         DFD
-Author URI:		http://rnbtheme.com/
-Template:       dfd-ronneby
-Version:        1.0.0
-*/
+html {
+	font-family: "Montserrat Regular",sans-serif;
+	}
 
+body {
+    margin: 0;
+  }
+  .image-container 
+  {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+  }
 
-/*CUSTOM CSS*/
+  img
+  {
+      width: 50%;
+  }
 
-img.foot-logo {
-    width: 100%;
-    max-width: 180px;
-}
-
-#fp-nav ul li a span {
-    background: white !important;
-}
-
-.footer-logo {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-}
-
-#sub-footer a {
-    color: #dc3831;
-    text-decoration: underline;
-}
-
-.first-block .dfd-row-bg-wrapper-cover {
- 	background-image: url("images/img-primoscroll-test.png") !important;
-	background-position: 83% 80px;
-    background-repeat: no-repeat;
-    background-size: initial;
-    background-attachment: scroll;
-}
-
-.servizi-first {
-	width:100%;
-	margin-left: -10px;
-}
-
-.second-block .servizi-first, .fourth-block .servizi-first {
-	text-align:center;
-}
-
-.servizi-first p {
-	background: white;
-    display: inline-block;
-    padding: 0px 5px;
-    color: #212121;
-    font-family: "Montserrat";
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-left: 5px;
-    font-size: 11px;
-	
-}
-
-.servizi-first p.cert-logo.trem {
-    padding-right: 45px;
-	position:relative;
-}
-
-.servizi-first p.cert-logo.hp {
-    padding-right: 30px;
-	position:relative;
-}
-
-.servizi-first p.cert-logo.trem:after  {
-	content: "";
+  .image-transition
+  {
     position: absolute;
-    display: block;
-    width: 38px;
-    height: 20px;
-    top: 2px;
-    right: 5px;
-	background-image: url("images/logo-3M.png") !important;
-    background-repeat: no-repeat;
-    background-size: 38px;
-}
+    top: -40%;
+    right: -3%;
+    width: 30%;
+  }
 
-
-.servizi-first p.cert-logo.hp:after  {
-	background-image: url("images/logo-hp.png") !important;
-    background-repeat: no-repeat;
-    background-size: 20px;
-	content: "";
-    position: absolute;
-    display: block;
-    width: 20px;
-    height: 20px;
-    top: 2px;
-    right: 5px;
-} 
-
-a.dfd-menu-button {
-    display: none !important;
-}
-
-.vc_custom_1588763919440 p {
-    margin-bottom: 5px;
-}
-
-.cookie-notice-container {
-    padding-bottom: 30px;
-}
-
-.cookie-notice-container .cn-button.bootstrap {
-    background: #dc3831;
-	border-radius: 0;
-}
-
-
-/*RESPONSIVE*/
-
-@media screen and (max-width: 1230px){
-
-	body.page-template-tmp-one-page-scroll #main-wrap #footer-wrap {
-		position: relative;
+  
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #000;
+		margin:0;
+	}
+	.intro p{
+		color: #000;
 	}
 
-}
-
-@media screen and (max-width: 1100px){
-
-	.header-col-right.text-center.clearfix {
-		display: none !important;
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
 	}
+
+	/* Overwriting styles for control arrows for slides
+	* --------------------------------------- */
+	.controlArrow.prev {
+		left: 50px;
+	}
+	.controlArrow.next{
+		right: 50px;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+  }
+  
+  .halfWidth
+  {
+    margin: 0 30%;
+  }
+
+  .some-page-wrapper {
 	
-	.header-col-left {
-		height: 60px !important;
-		float: none !important;
-		text-align: center !important;
-		margin: auto !important;
-		padding: 5px !important;
-	}
 	
-	.first-block .dfd-row-bg-wrapper-cover {
-		background-position: 95% 70px;
-	}
-	
-	#header-container:not(.small) {
-    	border-bottom: none;
-	}
-	
-}
+  }
+  
+  .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 100%;
+	margin: 0 10%;
+	margin-top: 80px;
+  }
+  
+  .column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	align-content: center !important;
+	margin: 0 10px;
+	align-items: center;
+  }
+  
+  .halfWidthRow
+  {
+	width: 60%;
+  }
+  
+  .logoWidth
+  {
+	width: 40%;
+  }
 
-@media screen and (max-width: 768px){
+  #header-text
+  {
+	position: absolute;
+	top: 10%;
+	margin: 35px;
+	font-size: 50px;
+	font-weight: 700;
+  }
 
-	.first-block .fp-tableCell { display:block; }
-	
-	.first-block .dfd-row-bg-wrapper-cover {
-    	background-position: 25% 480px;
-	}
-	
-	.third-block .dfd-heading-module-wrap.text-right, .third-block .dfd-heading-module-wrap.text-left {
-		text-align:center  !important;
-	}
-}
+  #footer-text
+  {
+	position: absolute;
+	bottom: 20%;
+	margin: 35px;
+	font-size: 50px;
+	font-weight: 700;
+  }
 
-@media screen and (max-width: 768px) and (min-width: 600px) {
-
-	.third-block .wpb_single_image img {
-		width: 768px !important;
-	}
-
-}
-
-@media screen and (max-width: 640px){
-
-	.first-block .dfd-heading-module-wrap.text-left, .first-block p, .first-block .servizi-first {
-		text-align:center !important;
-	}
-	.first-block .dfd-row-bg-wrapper-cover {
-    	display:none !important;
-	}
-
-}
-
-@media screen and (max-width: 414px){
-	.second-block h1.widget-title.dfd-title {
-    	margin-bottom: 0 !important;
-	}
-}
-
-@media screen and (max-width: 375px){
-	.servizi-first {
-    	margin-left: 0;
-	}
-	.servizi-first p {
-    	padding: 0px 5px;
-    	margin-left: 2px;
-		margin-bottom: 5px;
-	}
-	.first-block .wpb_text_column p {
-    	line-height: 20px;
-	}
-	.first-block .wpb_wrapper h2.widget-title {
-		font-size:24px !important;
-	}
-}
+  .row2
+  {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 80%;
+	height: 100%;
+  }
