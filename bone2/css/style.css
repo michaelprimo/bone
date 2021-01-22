@@ -255,4 +255,9 @@ body {
 	{
 		top: 15%;
 	}
+
+	.bigLogoWidth
+	{
+		width: 50%;
+	}
   }
