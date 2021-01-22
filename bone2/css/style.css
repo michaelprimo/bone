@@ -14,15 +14,10 @@ body {
       align-items: center;
   }
 
-  img
-  {
-      width: 50%;
-  }
-
   .image-transition
   {
     position: absolute;
-    top: -45%;
+    top: -40%;
     right: -3%;
     width: 30%;
   }
@@ -236,7 +231,7 @@ body {
 
 .bigLogoWidth
 {
-	width: 50%;
+	width: 30%;
 }
 
   @media only screen and (max-width: 600px) {
@@ -253,6 +248,7 @@ body {
 	.image-transition
 	{
 		right: 3%;
+		top: -45%;
 	}
 
 	.clienti

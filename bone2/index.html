@@ -20,7 +20,7 @@
 	<div class="section " id="section0">
 		<div class="intro">	
 			<div class="image-container animated backInDown">
-				<img src="images/logo.png">
+				<img class="bigLogoWidth" src="images/logo.png">
 			</div>
 		</div>
 	</div>
@@ -269,8 +269,23 @@
         navigation: true,
         navigationPosition: 'right',
 		navigationTooltips: ['First page', 'Second page', 'Third and last page', 'Fourth page'],
+		/*
 		afterLoad: function(origin, destination, direction){
-        }
+            //section 2
+            if(destination.index == 0){
+                document.querySelector('#section0').getElementsByClassName()classList.add("clienti");
+            }
+
+            //back to original state
+            else if(origin && origin.index == 1){
+                document.querySelector('#section2').querySelector('img').style.left = 130 + '%';
+                document.querySelector('#section2').querySelector('p').style.opacity = 0;
+            }
+
+            //section 3 is using the state classes to fire the animation
+            //see the CSS code above!
+		}
+		*/
     });
 </script>
 
