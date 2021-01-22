@@ -272,3 +272,14 @@ body {
   {
 	  font-weight: 500 !important;
   }
+
+  .bottom2
+  {
+	display: table-header-group;
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	bottom: 0px;
+	text-align: center;
+	
+  }
