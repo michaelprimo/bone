@@ -263,12 +263,12 @@ body {
 
 	.bottom2
   	{
-	height: 40%;
+	height: 40% !important;
 	}
 	
 	.size30
 	{
-		font-size: 18px;
+		font-size: 18px !important;
 	}
 
   }
