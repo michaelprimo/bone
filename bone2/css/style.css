@@ -19,7 +19,8 @@ body {
     position: absolute;
     top: -42%;
     right: -7%;
-    width: 30%;
+	width: 30%;
+	z-index: 1;
   }
 
   
@@ -346,4 +347,4 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 100;
-  } 
+  }
