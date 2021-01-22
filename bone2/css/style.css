@@ -261,3 +261,9 @@ body {
 		width: 50%;
 	}
   }
+
+  .particles
+  {
+	position: fixed;
+	z-index: 1;
+  }
