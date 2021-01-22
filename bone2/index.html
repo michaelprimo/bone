@@ -18,7 +18,7 @@
 
 <div id="fullpage">
 	<div class="section " id="section0">
-		<div class="intro">	
+		<div id="particles-js" class="intro">	
 			<div class="image-container animated backInDown">
 				<img class="bigLogoWidth" src="images/logo.png">
 			</div>
@@ -260,6 +260,7 @@
 </div>
 
 <script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/particles.js"></script>
 <script type="text/javascript" src="js/examples.js"></script>
 
 <script type="text/javascript">
@@ -271,11 +272,10 @@
 		navigationTooltips: ['First page', 'Second page', 'Third and last page', 'Fourth page'],
 		/*
 		afterLoad: function(origin, destination, direction){
-            //section 2
             if(destination.index == 0){
-                document.querySelector('#section0').getElementsByClassName()classList.add("clienti");
-            }
-
+                document.querySelector('#section0').getElementsByClassName("intro").getElementsByClassName("fp-tableCell").getElementsByClassName("image-container animated").classList.add("backInDown");
+			}
+/*
             //back to original state
             else if(origin && origin.index == 1){
                 document.querySelector('#section2').querySelector('img').style.left = 130 + '%';
@@ -285,7 +285,7 @@
             //section 3 is using the state classes to fire the animation
             //see the CSS code above!
 		}
-		*/
+*/		
     });
 </script>
 
