@@ -280,6 +280,11 @@ body {
 	{
 		display: none;
 	}
+
+	.halfWidthRow
+	{
+		width: 100%;
+	}
   }
 
   .particles
