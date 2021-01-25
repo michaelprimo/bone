@@ -63,13 +63,16 @@ body {
   
   .halfWidth
   {
-	margin: 0 10%;
-	font-family: 'Montserrat', 'sans-serif';
+	margin: 0 10% !important;
+	font-family: 'Montserrat', 'sans-serif' !important;
+	font-size: 16px !important;
+	font-weight: 400;
   }
 
   .some-page-wrapper {
 	
-	
+	position: relative;
+	top: 20%;
   }
   
   .row {
@@ -187,6 +190,7 @@ body {
   {
 	  font-weight: 900;
 	  font-size: 60px;
+	  line-height: 1.2;
   }
 
   .bottom
@@ -232,7 +236,7 @@ body {
 
 .bigLogoWidth
 {
-	width: 50%;
+	width: 40%;
 }
 
   @media only screen and (max-width: 600px) {
