@@ -79,10 +79,9 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 80%;
+	width: 90%;
 	height: 100%;
-	margin: 0 10%;
-	margin-top: 10px;
+	margin: 0 5%;
   }
   
   .column {
@@ -263,7 +262,7 @@ body {
 
 	.bigLogoWidth
 	{
-		width: 50%;
+		width: 60%;
 	}
 
 	.bottom2

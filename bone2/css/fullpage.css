@@ -89,6 +89,7 @@ html.fp-enabled,
 }
 .fp-scroller{
     overflow: hidden;
+    height: 100%;
 }
 .iScrollIndicator{
     border: 0 !important;
