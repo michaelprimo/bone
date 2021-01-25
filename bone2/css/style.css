@@ -276,6 +276,10 @@ body {
 		font-size: 18px !important;
 	}
 
+	.hide
+	{
+		display: none;
+	}
   }
 
   .particles
