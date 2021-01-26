@@ -263,12 +263,13 @@ body {
 
 	.bigLogoWidth
 	{
-		width: 50%;
+		width: 60%;
+		margin-bottom: 10%;
 	}
 
 	.bottom2
   	{
-	height: 40% !important;
+	height: 45% !important;
 	}
 	
 	.size30
@@ -283,8 +284,16 @@ body {
 
 	.halfWidthRow
 	{
-		width: 100%;
+		width: 80%;
+		margin-right: 0px;
 	}
+
+	.remove-padding
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
   }
 
   .particles
@@ -296,6 +305,7 @@ body {
   .regularWeight
   {
 	  font-weight: 500 !important;
+	  font-size: 15px;
   }
 
   .bottom2
@@ -361,3 +371,5 @@ body {
 	left: 0;
 	z-index: 100;
   }
+
+ 
