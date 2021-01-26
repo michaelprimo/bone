@@ -264,12 +264,12 @@ body {
 	.bigLogoWidth
 	{
 		width: 60%;
-		margin-bottom: 13%;
+		margin-bottom: 28%;
 	}
 
 	.bottom2
   	{
-	height: 48% !important;
+	height: 53% !important;
 	}
 	
 	.size30
@@ -308,7 +308,7 @@ body {
 	display: table-header-group;
 	position: absolute;
 	width: 100%;
-	height: 35%;
+	height: 40%;
 	bottom: 0px;
 	text-align: center;
 	
