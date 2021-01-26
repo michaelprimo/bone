@@ -174,7 +174,7 @@ body {
 
   #bonelli
   { 
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: 900;
 	font-family: 'Montserrat', 'sans-serif';
 	color: black;
@@ -307,7 +307,7 @@ body {
   .regularWeight
   {
 	  font-weight: 500 !important;
-	  font-size: 15px;
+	  font-size: 14px;
   }
 
   .bottom2
