@@ -69,6 +69,13 @@ body {
 	font-weight: 400;
   }
 
+  .halfWidth2
+  {
+	font-family: 'Montserrat', 'sans-serif' !important;
+	font-size: 16px !important;
+	font-weight: 400;
+  }
+
   .some-page-wrapper {
 	
 	position: relative;
@@ -207,12 +214,12 @@ body {
 	
   }
 
-  .bottom-text
+  .bottom-text, .bottom-text a
   {
 	  color: black;
 	  font-weight: 500;
 	  font-family: 'Montserrat', 'sans-serif';
-	  font-size: 12px;
+	  font-size: 12px !important;
   }
 
   .loghileft
@@ -367,4 +374,8 @@ body {
 	z-index: 100;
   }
 
- 
+  .click-links
+  {
+	position: relative;
+	z-index: 1;
+  }
