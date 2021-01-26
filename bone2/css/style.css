@@ -67,6 +67,7 @@ body {
 	font-family: 'Montserrat', 'sans-serif' !important;
 	font-size: 16px !important;
 	font-weight: 400;
+	margin-top: 10px !important;
   }
 
   .halfWidth2
@@ -74,6 +75,7 @@ body {
 	font-family: 'Montserrat', 'sans-serif' !important;
 	font-size: 16px !important;
 	font-weight: 400;
+	margin-bottom: 0;
   }
 
   .some-page-wrapper {
